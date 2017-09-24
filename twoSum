@@ -1,0 +1,9 @@
+const twoSum = (nums, target) => {
+  const hash = {};
+  let result = [];
+  nums.forEach((num, index) => {
+    if (hash[num] !== undefined) result = [hash[num], index];
+    hash[target - num] = index;
+  })
+  return result;
+}
