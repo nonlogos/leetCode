@@ -1,0 +1,38 @@
+// Data structure interfaces
+// ================================================
+// Set
+// ================================================
+
+1. no guarantee order 
+2. no duplicate values, useful for things like username check
+3. Collection (in other language)
+
+// ================================================
+// Map
+// ================================================
+
+1. Dictionary (in other language)
+2. like an object: key value pair
+3. Map is a set of keys with values associated with them. 
+4. No prototype, inheriance, methods of sort
+5. no duplicate key (since it's a set of keys) but can have duplicate values
+6. no sense of order either
+
+// Weak sets and weak maps are useful for libraries because it can allow for garbage collection when it's no longer needed and avoid memory leaks
+
+// ================================================
+// Stack
+// ================================================
+
+1. Last In First Out - last thing you put into it will be the first thing you get out
+2. methods are .pop and .push and .peak (sometimes)
+3. example is javascript (or other programming language) stacks
+
+// ================================================
+// Queue
+// ================================================
+
+1. First In First Out - similar to queuing in line
+2. methods are .enqueue and .dequeue and .peak(sometimes)
+3. useful for print queue or anything queuing
+3. Priority queue - mostly for networking ex. streaming over syncing to dropbox
